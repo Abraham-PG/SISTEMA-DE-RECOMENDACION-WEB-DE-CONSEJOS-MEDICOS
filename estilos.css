@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* Esto es para importar la fuente */
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+@import url(Optifresh%20normal.html);
+
+/*Esto de arriba es para unir las pestañas que necesitaremos por ejemplo menu,banner,blog,info*/
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} /*Con esto esta diciendo que cualquier cosa o todo mas bien tiene que estar con las espesificaciones establesidas , ademas el box-sizing es para que no salga de la caja que esta hecha*/
+
+body{
+font-family: 'Open Sans', sans-serif;
+} 
+/* Y para integrar la fuente aqui y ya quedaria importada totalmente */
+
+header {
+width: 100%; /* Esta se utliza para la anchura del header */
+    
+height: 50px; /* Y esta para la altura de el header */
+background: #008080;/* Y este es el color del fondo */
+color: #fff; /* Este es el color del texto  */
+
+position: fixed;/* El position , top , left , zindex , es para que el menu este pegado ashta arriba y este por enceima de todos los demas elementos */
+top: 0;
+left: 0;
+z-index: 100;
+} 
+
+.contenedor {
+width: 98%;
+margin: auto;
+    
+
+}/*Este es para que el margen del contenedor sea el mismo y cuando se haga grande este a la medida (O serca de ella )*/
+
+.contenedor a, h1 .icon-emo-laugh {
+    text-decoration: none;    
+    color: #fff;
+}
+
+h1{
+float: left;
+    
+
+}
+
+h2 {
+color: dimgray;
+}
+
+p {
+    color: dimgray;
+}
+header .contenedor {
+    display: table;
+  
+}
+
+section{
+	width: 100%;
+	margin-bottom: 25px;
+}
+#Bienvenidos {
+	text-align:center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: dimgray;
+    
+    
+
+}
+#Bienvenidos a {
+    text-decoration: none;
+    
+    color:black;
+}
+
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #333;
+    padding-bottom: 25px;
+    
+}
+
+
+
+.copy {
+	font-size: 20px;
+    
+   
+  
+}
+
+footer .contenedor {
+	
+    text-align: center;
+    
+}
+
+@media (min-width: 1024px) {
+	.contenedor {
+		width: 1000px;
+	}
+}
+
+
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
+.sociales a {
+    color: #008080;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
